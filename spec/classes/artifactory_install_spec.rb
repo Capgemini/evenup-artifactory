@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe 'artifactory' do
   let(:facts) { { :concat_basedir => '/var/lib/puppet/concat' } }
-  let(:pre_condition) { 'class java {} ' }
+  # let(:pre_condition) { 'class java {} ' }
 
   context 'install' do
     context 'default' do
